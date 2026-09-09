@@ -1,0 +1,13 @@
+# Native Streamlit theme — makes the default header/sidebar chrome (including
+# the sidebar collapse/expand arrow) match our dark color scheme instead of
+# hiding it. This file is safe to commit (no secrets in it).
+
+[theme]
+base = "dark"
+backgroundColor = "#0b1220"
+secondaryBackgroundColor = "#0d1526"
+textColor = "#e7edf5"
+primaryColor = "#1fbf9f"
+
+[client]
+toolbarMode = "minimal"

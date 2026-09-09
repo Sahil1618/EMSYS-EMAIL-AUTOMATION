@@ -1,0 +1,21 @@
+# Secrets — NEVER commit real credentials
+.streamlit/secrets.toml
+
+# Local database (contains your entities, recipients, and file archive —
+# don't want this in git; back it up via the app's Backup & Restore instead)
+data/portal.db
+data/*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
